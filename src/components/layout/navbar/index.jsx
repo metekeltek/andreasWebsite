@@ -1,9 +1,11 @@
 import React from "react"
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
-import { User, Briefcase, Feather, Smile, GitHub } from 'react-feather'
+import { User, Briefcase, Feather, Smile, Heart, Calendar } from 'react-feather'
+import logo from '../../../assets/img/logo.png'
 
-import {NavbarElement, NavbarList, NavbarLogo} from './style'
+
+import {HeartButton, NavbarElement, NavbarList, NavbarLogo, CenteredElemtent} from './style'
 
 const Navbar = ({ siteTitle }) => (
   <nav>
@@ -12,16 +14,17 @@ const Navbar = ({ siteTitle }) => (
           <NavbarLogo>
             <h3>
               <Link to="/">
-                <Smile className="align-middle"/> <span className="align-middle"> {siteTitle} </span>
+                <img width="500" height="130" src={logo}/>  
               </Link>
             </h3>
           </NavbarLogo> 
           <div className="main-navigation">
             <NavbarList>
-              <li><Link to="/" className="lined-link" activeClassName="active"> <User /> <span> About </span> </Link></li> 
-              <li><Link to="/repositories" className="lined-link" activeClassName="active"> <GitHub /> <span> Github </span> </Link></li>  
-              <li><Link to="/works" className="lined-link" activeClassName="active"> <Briefcase /> <span> Portfolio </span> </Link></li>  
-              <li><Link to="/blog" className="lined-link" activeClassName="active"> <Feather /> <span> Blog </span> </Link></li>
+              <li><Link to="/" className="lined-link" activeClassName="active"> <HeartButton> <CenteredElemtent>Home</CenteredElemtent> </HeartButton> </Link></li>
+              <li><Link to="/über" className="lined-link" activeClassName="active"> <HeartButton> <CenteredElemtent>Über</CenteredElemtent> </HeartButton> </Link></li> 
+              <li><Link to="/kurs" className="lined-link" activeClassName="active"> <HeartButton> <CenteredElemtent>Kursplan</CenteredElemtent> </HeartButton> </Link></li> 
+              <li><Link to="/kontakt" className="lined-link" activeClassName="active"> <HeartButton> <CenteredElemtent>Kontakt</CenteredElemtent> </HeartButton> </Link></li>  
+
             </NavbarList>
           </div>
       </NavbarElement>

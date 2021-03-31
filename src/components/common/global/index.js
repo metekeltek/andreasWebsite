@@ -15,6 +15,7 @@ export const GlobalStyle = createGlobalStyle`
     line-height: 1.15; /* 1 */
     -webkit-text-size-adjust: 100%; /* 2 */
     body {
+      background-color: #f7f6da;
       font-size: 14px;
       font-family: 'GT-Walsheim-Pro-Regular';
       margin: 0;

@@ -6,7 +6,7 @@ import {SectionIntro, ContainerLayout, ResumeButton} from "../common";
 const About = () => {
   const data = useStaticQuery(graphql`
     query {
-      placeholderImage: file(relativePath: { eq: "profile.webp" }) {
+      placeholderImage: file(relativePath: { eq: "mother-kid.jpeg" }) {
         childImageSharp {
           fluid(maxWidth: 550) {
             ...GatsbyImageSharpFluid
@@ -22,15 +22,15 @@ const About = () => {
           <AboutSection>
             <div>
               <Avatar fluid={data.placeholderImage.childImageSharp.fluid} alt="user photo" />
-              <SubTitle> Front End Developer</SubTitle>
+    
             </div> 
             <div>
-              <Title> Hello, I’m AbdAli </Title>
-              <Text> I'm a digital Front End Developer hailing from <b className="text-primary lined-link">North Africa</b> living in Casablanca. </Text>
-              <Text> I love working with modern technologies, building and designing awesome projects. I prefer minimalistic & clean designs with strong user experience.</Text>
-              <Text> behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia.
+              <Title> Willkommen! </Title>
+              <Text> Eine <b className="text-primary">Babymassage</b> hat viele Vorteile – nicht nur für die Kleinen! Denn Babys zu streicheln oder sanft zu berühren steigert das Wohlbefinden, stärkt das kindliche Immunsystem und die Eltern-Kind-Bindung. </Text>
+              <Text> Die Babymassage oder Kindermassage stammt ursprünglich aus Indien und dort unter dem Namen Kumara Abhyanga im Ayurveda enthalten. Sie wurde von dem Franzosen Frédérick Leboyer, dem Begründer der „sanften Geburt“, in den 1970er-Jahren aufgegriffen und in Europa eingeführt, weswegen sie hier auch häufig Leboyer-Massage genannt wird. Babymassagen kennt man aber auch in Russland und Afrika sowie angeblich bei den Eskimos.</Text>
+              <Text> Die Babymassage trägt laut ihrer Anhängerschaft zur Entspannung und zur Entwicklung des Empfindungsvermögens bei, helfe aber auch gegen Blähungen und Unruhe. Zielgruppe sind vor allem Säuglinge im Alter zwischen vier und sechs Wochen und sechs Monaten, aber auch Kleinkinder bis zum Alter von etwa zwei Jahren.
               </Text>
-              <ResumeButton href="resume.pdf" target="_blank"> Download resume </ResumeButton>
+              {/* <ResumeButton href="resume.pdf" target="_blank"> Download resume </ResumeButton> */}
             </div>
           </AboutSection>
         </ContainerLayout>

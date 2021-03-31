@@ -32,12 +32,22 @@ export const Text = styled.p`
     text-decoration: underline;
   }
 `
+export const SText = styled.p`
+  font-size: 1.2rem;
+  line-height: 2;
+  color: #232323;
+  text-align:center;
+  a {
+    color: #3F51B5;
+    text-decoration: underline;
+  }
+`
 export const SubTitle = styled.h2`
-  font-family: "GT-Walsheim-Pro-Medium";
+  font-family: "GT-Walsheim-Pro-Bold";
   margin-top: 3rem;
   margin-bottom: 2rem;
-  text-align: center;
-  text-transform: uppercase;
+  margin-left: 5px;
+  text-align: start;
   word-spacing: 8px;
   @media(min-width: ${variables.breakpointPhone}) {
     font-size: 1.8em;
