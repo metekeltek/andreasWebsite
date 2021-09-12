@@ -18,7 +18,7 @@ export const Avatar =styled(Img)`
 `
 export const Title = styled.h1`
   font-size: 3rem;
-  font-family: "GT-Walsheim-Pro-Bold";
+  font-family: "Spartan-Bold";
   @media(max-width: ${variables.breakpointPhone}) {
     font-size: 2rem;
   }
@@ -33,12 +33,10 @@ export const Text = styled.p`
   }
 `
 export const SubTitle = styled.h2`
-  font-family: "GT-Walsheim-Pro-Bold";
+  font-family: "Spartan-Bold";
   margin-top: 3rem;
   margin-bottom: 2rem;
-  margin-left: 5px;
   text-align: start;
-  word-spacing: 8px;
   @media(min-width: ${variables.breakpointPhone}) {
     font-size: 1.8em;
   }

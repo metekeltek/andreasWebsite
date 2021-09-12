@@ -5,7 +5,7 @@ export const NavbarLogo = styled.div`
   a {
     color: ${variables.black};
     font-size: 2.3rem;
-    font-family: "GT-Walsheim-Pro-Bold";
+    font-family: "Spartan-Bold";
   }
   @media(max-width: ${variables.breakpointPhone}) {
     display: none
@@ -47,7 +47,7 @@ export const HeartButton = styled.div`
   top: 0;
   width: 50px;
   height: 80px;
-  background: #fc2e5a;
+  background: #a86698;
   -moz-border-radius: 50px 50px 0 0;
   border-radius: 50px 50px 0 0;
   -webkit-transform: rotate(-45deg);

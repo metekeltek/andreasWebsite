@@ -5,7 +5,7 @@ import About from "../components/datenschutz"
 
 const IndexPage = () => (
     <Layout> 
-      <SEO title="About me" />
+      <SEO title="Datenschutz" />
       <About /> 
     </Layout>
   )

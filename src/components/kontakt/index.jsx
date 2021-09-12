@@ -4,36 +4,26 @@ import {AboutSection, Avatar, Title, Text, SubTitle} from './style';
 import {SectionIntro, ContainerLayout, ResumeButton} from "../common";
 
 const About = () => {
-  const data = useStaticQuery(graphql`
-    query {
-      placeholderImage: file(relativePath: { eq: "contact.jpeg" }) {
-        childImageSharp {
-          fluid(maxWidth: 550) {
-            ...GatsbyImageSharpFluid
-          }
-        }
-      }
-    }
-  `)
   return (
     <>
       <SectionIntro>
         <ContainerLayout>
-          <AboutSection>
-            <div>
-              <Avatar fluid={data.placeholderImage.childImageSharp.fluid} alt="user photo" />
-    
-            </div> 
-            <div>
-              <Title> Kontakt </Title>
-              <Text> Adenauerstraße 18 </Text>
-              <Text> 52146 Lippstadt </Text>
-              <Text> Telefon:  +49 122 12 34 567 </Text>
-              <Text> Adenauerstraße 18 </Text>
+        <Text><b className="text-primary">Melde Dich unter:</b></Text>
+        <Text>
+        <table>
+  <tr>
+    <td><b className="text-primary">E-mail:</b></td>
+    <td style={{paddingLeft:30}}>andrea@babymassage-mit-herz.de</td>
+  </tr>
+  <tr>
+    <td ><b className="text-primary">Instagram:</b>   </td>
+    <td style={{paddingLeft:30}}>babymassagemitherz</td>
+  </tr>
+</table>
+        </Text>
 
-              {/* <ResumeButton href="resume.pdf" target="_blank"> Download resume </ResumeButton> */}
-            </div>
-          </AboutSection>
+
+
         </ContainerLayout>
       </SectionIntro>
     </>

@@ -15,9 +15,9 @@ export const GlobalStyle = createGlobalStyle`
     line-height: 1.15; /* 1 */
     -webkit-text-size-adjust: 100%; /* 2 */
     body {
-      background-color: #f7f6da;
+      background-color: #edd3e8;
       font-size: 14px;
-      font-family: 'GT-Walsheim-Pro-Regular';
+      font-family: 'Spartan-Regular';
       margin: 0;
     }
     main {
@@ -39,7 +39,7 @@ export const GlobalStyle = createGlobalStyle`
     b,
     strong {
       font-weight: bolder;
-      font-family: 'GT-Walsheim-Pro-Bold';
+      font-family: 'Spartan-Bold';
     }
     small {
       font-size: 80%;

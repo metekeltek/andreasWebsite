@@ -5,7 +5,7 @@ import About from "../components/kursplan"
 
 const IndexPage = () => (
     <Layout> 
-      <SEO title="Kursplan" />
+      <SEO title="Kurse" />
       <About /> 
     </Layout>
   )

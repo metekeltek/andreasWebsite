@@ -19,7 +19,7 @@ export const FooterStyle = styled.footer`
 	.quote {
 		margin: 0px;
 		font-size: 4rem;
-		font-family: "GT-Walsheim-Pro-Bold";
+		font-family: "Spartan-Bold";
 		line-height: 1.2;
 		color: ${variables.primary};
 		@media(max-width: ${variables.breakpointPhone}) {
@@ -32,9 +32,8 @@ export const SubRight = styled.p`
 	font-size: 1rem;
 	line-height: 1.8;
 	letter-spacing:2px;
-	text-transform: capitalize;
 	margin-bottom: 20px;
-	font-family: "GT-Walsheim-Pro-Bold";
+	font-family: "Spartan-Bold";
 `	
 export const CopyRight = styled.p`
 	font-size: 11px;
@@ -68,7 +67,7 @@ export const MediaLink = styled.a`
 	line-height: 1;
 	font-size: 1rem;
   text-transform: capitalize;
-  font-family: "GT-Walsheim-Pro-Bold";
+  font-family: "Spartan-Bold";
 	color: ${variables.primary};
 	
 `

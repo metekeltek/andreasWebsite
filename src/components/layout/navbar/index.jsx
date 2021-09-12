@@ -14,7 +14,7 @@ const Navbar = ({ siteTitle }) => (
           <NavbarLogo>
             <h3>
               <Link to="/">
-                <img width="500" height="130" src={logo}/>  
+                <img width="500" height="150" src={logo}/>  
               </Link>
             </h3>
           </NavbarLogo> 
@@ -22,7 +22,7 @@ const Navbar = ({ siteTitle }) => (
             <NavbarList>
               <li><Link to="/" className="lined-link" activeClassName="active"> <HeartButton> <CenteredElemtent>Home</CenteredElemtent> </HeartButton> </Link></li>
               <li><Link to="/über" className="lined-link" activeClassName="active"> <HeartButton> <CenteredElemtent>Über</CenteredElemtent> </HeartButton> </Link></li> 
-              <li><Link to="/kurs" className="lined-link" activeClassName="active"> <HeartButton> <CenteredElemtent>Kursplan</CenteredElemtent> </HeartButton> </Link></li> 
+              <li><Link to="/kurs" className="lined-link" activeClassName="active"> <HeartButton> <CenteredElemtent>Kurse</CenteredElemtent> </HeartButton> </Link></li> 
               <li><Link to="/kontakt" className="lined-link" activeClassName="active"> <HeartButton> <CenteredElemtent>Kontakt</CenteredElemtent> </HeartButton> </Link></li>  
 
             </NavbarList>

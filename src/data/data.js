@@ -2,7 +2,7 @@ module.exports = {
   SiteTitle: 'Babymassage mit ',
   Sitelogo: '#',
   SiteLogoText: 'Babymassage mit',
-  SiteAuthor: 'Andrea Aydincioglu',
+  SiteAuthor: 'Andrea Schröder-Aydincioglu',
   SiteDescription: 'Babymassagen',
   defaultDescription: 'Babymassagen', 
   githubApiQuery: `query ($number_of_repos: Int!) {
@@ -42,7 +42,6 @@ module.exports = {
     number_of_repos: 12,
   }, 
   SiteSocialLinks: {
-    twitter: 'https://twitter.com/AbdaliDahir',
     linkedin: 'https://www.linkedin.com/in/metekeltek/',
   },
   SiteAddress: {
@@ -52,7 +51,7 @@ module.exports = {
     zipCode: 'ZipCode',
   },
   SiteContact: {
-    email: 'andrea.dahir@gmail.com',
+    email: 'andrea.schroeder0879as@gmail.com',
     phone: 'phone number',
   },
   SiteCopyright: '2020',

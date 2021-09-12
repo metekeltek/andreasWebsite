@@ -5,7 +5,7 @@ import About from "../components/impressum"
 
 const IndexPage = () => (
     <Layout> 
-      <SEO title="About me" />
+      <SEO title="Impressum" />
       <About /> 
     </Layout>
   )
