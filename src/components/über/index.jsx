@@ -1,7 +1,6 @@
 import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
-import {AboutSection, Avatar, Title, Text, SubTitle} from './style';
-import {SectionIntro, ContainerLayout, ResumeButton} from "../common";
+import {AboutSection, Title, Text, SubTitle} from './style';
+import {SectionIntro, ContainerLayout} from "../common";
 import andrea1 from '../../assets/img/andrea1.jpg'
 import andrea2 from '../../assets/img/andrea2.jpg'
 import andrea3 from '../../assets/img/andrea3.jpg'
@@ -16,7 +15,7 @@ const About = () => {
 
 
     
-        <img src={andrea1} width={500} height={800} style={{marginTop:0, marginLeft: "auto", marginRight:"auto", display:"block"}}/>
+        <img alt="andrea" src={andrea1} width={500} height={800} style={{marginTop:0, marginLeft: "auto", marginRight:"auto", display:"block"}}/>
         <Title><b className="text-primary">Hallo, ich bin Andrea!</b></Title>
 
 <SubTitle>
@@ -48,14 +47,14 @@ const About = () => {
                   </ul> 
                 </ul>
                 </Text>
-                <Text><img src={andrea2} width={550} height={800} style={{marginTop:0, marginBottom:100, marginLeft: "auto", marginRight:"auto", display:"block"}}/></Text>
+                <Text><img alt="andrea mit einer baby puppe" src={andrea2} width={550} height={800} style={{marginTop:0, marginBottom:100, marginLeft: "auto", marginRight:"auto", display:"block"}}/></Text>
         
         <AboutSection>
   <div>
-    <img src={andrea3} width={700} height={500} style={{marginTop:0}}/>
+    <img alt="andrea mit einem baby" src={andrea3} width={700} height={500} style={{marginTop:0}}/>
   </div>
   <div>
-    <img src={kid3} width={700} height={500} style={{marginTop:0}}/>
+    <img alt="Baby" src={kid3} width={700} height={500} style={{marginTop:0}}/>
   </div>
 </AboutSection>
               

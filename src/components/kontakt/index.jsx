@@ -1,7 +1,6 @@
 import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
-import {AboutSection, Avatar, Title, Text, SubTitle} from './style';
-import {SectionIntro, ContainerLayout, ResumeButton} from "../common";
+import { Text} from './style';
+import {SectionIntro, ContainerLayout} from "../common";
 
 const About = () => {
   return (

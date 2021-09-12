@@ -1,5 +1,5 @@
 import React from "react"
-import {AboutSection, Avatar, Title, Text} from './style';
+import { Title, Text} from './style';
 import {SectionIntro, ContainerLayout} from "../common";
 
 const About = () => {

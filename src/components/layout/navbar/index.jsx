@@ -1,7 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
-import { User, Briefcase, Feather, Smile, Heart, Calendar } from 'react-feather'
 import logo from '../../../assets/img/logo.png'
 
 
@@ -14,7 +13,7 @@ const Navbar = ({ siteTitle }) => (
           <NavbarLogo>
             <h3>
               <Link to="/">
-                <img width="500" height="150" src={logo}/>  
+                <img alt="logo" width="500" height="150" src={logo}/>  
               </Link>
             </h3>
           </NavbarLogo> 

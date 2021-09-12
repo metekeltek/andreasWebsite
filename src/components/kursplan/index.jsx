@@ -1,9 +1,7 @@
 import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
-import {AboutSection, Avatar, Title, Text, SText, SubTitle} from './style';
-import {SectionIntro, ContainerLayout, ResumeButton} from "../common";
+import {AboutSection, Title, Text, SubTitle} from './style';
+import {SectionIntro, ContainerLayout} from "../common";
 import kurs1 from '../../assets/img/kurs1.jpeg'
-import kurs2 from '../../assets/img/kurs2.jpeg'
 import kurs3 from '../../assets/img/kurs3.jpeg'
 import kurs4 from '../../assets/img/kurs4.jpg'
 import kurs5 from '../../assets/img/kurs5.jpeg'
@@ -26,20 +24,20 @@ Ein Kurs beinhaltet 5 Termine à 60 Minuten. Die Kurse finden in Kleingruppen bi
 <b>Es gelten die aktuellen Pandemie Richtlinien und Schutzmaßnahmen.</b>
 </Text>
 
-          <Text>💜 <b>Eröffnungsangebot</b></Text>
+          <Text><span role="img" aria-label="heart emoji">💜</span> <b>Eröffnungsangebot</b></Text>
           <Text>Bei Deinem ersten Kurs erhältst Du eine weitere Stunde gratis dazu!</Text>
           <Text><b>Kurse</b></Text>
           <Text><table>
   <tr>
-    <td>💜 <b>pro Person</b></td>
+    <td><span role="img" aria-label="heart emoji">💜</span> <b>pro Person</b></td>
     <td style={{paddingLeft:30}}>100€</td>
   </tr>
   <tr>
-    <td >💜 <b>Einzelkurs</b> auf Wunsch nach Absprache   </td>
+    <td ><span role="img" aria-label="heart emoji">💜</span> <b>Einzelkurs</b> auf Wunsch nach Absprache   </td>
     <td style={{paddingLeft:30}}>120€</td>
   </tr>
   <tr>
-    <td>💜 <b>Zwillingsangebot</b></td>
+    <td><span role="img" aria-label="heart emoji">💜</span> <b>Zwillingsangebot</b></td>
     <td style={{paddingLeft:30}}> 150€</td>
   </tr>
 </table></Text>
@@ -48,9 +46,9 @@ Mein Angebot besteht darin, dass Du und Dein Partner oder eine andere feste Begl
 </Text>
           <Text>Du hast niemanden, der Dich unterstützen kann? Wenn du magst, führe ich die Babymassage nicht zur Demonstration an meiner Babymassagepuppe durch und vor, sondern an Deinem Baby!
 </Text>
-          <Text>💜 <b>Wahlgruppenangebot:</b></Text>
+          <Text><span role="img" aria-label="heart emoji">💜</span> <b>Wahlgruppenangebot:</b></Text>
           <Text>Du möchtest Dich mit Deinen Freundinnen aus dem Geburtsvorbereitungskurs gemeinsam in einem Kurs anmelden? Kein Problem! Gemeinsam finden wir einen Termin am Vormittag oder Nachmittag dafür und ihr seid mit mir unter euch! </Text>
-          <Text>💜 <b>Geschenkidee:</b></Text>
+          <Text><span role="img" aria-label="heart emoji">💜</span> <b>Geschenkidee:</b></Text>
           <Text>Du möchtest jemandem einen Gutschein für einen Babymassagekurs, z. Bsp. zur Geburt schenken? Ich stelle dir gerne einen Gutschein aus.</Text>
           <Text><b>Zu eurem Kurs bringt ihr bitte mit:</b> </Text>
           <Text><ul>
@@ -65,7 +63,7 @@ Mein Angebot besteht darin, dass Du und Dein Partner oder eine andere feste Begl
           <Text><b className="text-primary">Von mir erhaltet ihr das Baby Massage Öl.</b> </Text>
     
           <Text>
-          <img src={kurs1} width={500} height={700} style={{marginTop:0,  marginLeft: "auto", marginRight:"auto", display:"block"}}/>
+          <img alt="Baby Spielzeug" src={kurs1} width={500} height={700} style={{marginTop:0,  marginLeft: "auto", marginRight:"auto", display:"block"}}/>
           </Text>
           
           <Text><b className="text-primary">Kursraum:</b></Text>
@@ -76,16 +74,16 @@ Der Kinderwagen kann vor dem Eingang zum Massageraum  bequem trocken untergestel
 </Text>
     <AboutSection>
   <div>
-    <img src={kurs3} width={700} height={500} style={{marginTop:0}}/>
+    <img alt="Kursraum Foto 1" src={kurs3} width={700} height={500} style={{marginTop:0}}/>
   </div>
   <div>
-    <img src={kurs4} width={700} height={500} style={{marginTop:0}}/>
+    <img alt="Kursraum Foto 2" src={kurs4} width={700} height={500} style={{marginTop:0}}/>
   </div>
   <div>
-    <img src={kurs5} width={700} height={500} style={{marginTop:0}}/>
+    <img alt="Kursraum Foto 3" src={kurs5} width={700} height={500} style={{marginTop:0}}/>
   </div>
   <div>
-    <img src={kurs6} width={700} height={500} style={{marginTop:0}}/>
+    <img alt="Kursraum Foto 4" src={kurs6} width={700} height={500} style={{marginTop:0}}/>
   </div>
 </AboutSection>
           <Text></Text>
