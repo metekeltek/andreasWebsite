@@ -62,8 +62,6 @@ const About = () => {
               <Text></Text>
               <Text></Text>
               <Text></Text>
-
-              {/* <ResumeButton href="resume.pdf" target="_blank"> Download resume </ResumeButton> */}
          
         </ContainerLayout>
       </SectionIntro>

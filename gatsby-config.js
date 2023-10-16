@@ -16,20 +16,6 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `blog`,
-        path: `${__dirname}/src/data/blog`,
-      },
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `portfolio`,
-        path: `${__dirname}/src/data/works`,
-      },
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
         name: `images`,
         path: `${__dirname}/src/assets/img`,
       },
@@ -66,22 +52,6 @@ module.exports = {
         theme_color: `#000`,
         display: `minimal-ui`,
         icon: `src/assets/img/portfolio-icon.png`, // This path is relative to the root of the site.
-      },
-    },
-    {
-      resolve: `gatsby-source-github-api`,
-      options: {
-        token: process.env.GATSBY_GITHUB_API_TOKEN,
-        graphQLQuery: data.githubApiQuery,
-        variables: data.githubApiVariables,
-      },
-    },
-    // https://www.gatsbyjs.org/packages/gatsby-plugin-google-analytics/
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-          trackingId: process.env.GATSBY_GOOGLE_ANALYTICS,
-          head: true,
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality

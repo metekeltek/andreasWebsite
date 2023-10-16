@@ -15,7 +15,6 @@ Der Nutzung von im Rahmen der Impressumspflicht veröffentlichten Kontaktdaten d
  </Text>
              
 
-              {/* <ResumeButton href="resume.pdf" target="_blank"> Download resume </ResumeButton> */}
         </ContainerLayout>
       </SectionIntro>
     </>

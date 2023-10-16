@@ -70,8 +70,6 @@ Massagegriffe sowie das Reduzieren von Unruhezuständen, Verspannungen und Schla
              <Text>Mach meine Babymassage zu Deiner Babymassage, denn Du kannst die bei mir erlernte Massage zu Hause weiterführen. Damit Dein Baby und Du sich wohl fühlen!
 </Text>
              <Text></Text>
-
-              {/* <ResumeButton href="resume.pdf" target="_blank"> Download resume </ResumeButton> */}
     
         </ContainerLayout>
       </SectionIntro>
